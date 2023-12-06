@@ -6,7 +6,7 @@ class NullCar(ABCAuto):
         self._carname = carname
 
     def start(self):
-        print("Unknown Car {} Not Found".format(self._carname))
+        print(f"Unknown Car {self._carname} Not Found")
 
     def stop(self):
         pass
